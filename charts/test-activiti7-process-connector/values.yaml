@@ -45,7 +45,7 @@ javaOpts:
 #registryPullSecrets: private-registry-secret
 image:
   repository: us.gcr.io/cc-business-systems-dev/test-activiti7-process-connector
-  tag: 0.0.1-SNAPSHOT
+  tag: 0.0.2-SNAPSHOT
   pullPolicy: Always
 service:
   name: test-activiti7-process-connector
