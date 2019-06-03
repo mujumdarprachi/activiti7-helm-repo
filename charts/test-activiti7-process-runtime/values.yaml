@@ -69,7 +69,7 @@ javaOpts:
 #registryPullSecrets: private-registry-secret
 image:
   repository: us.gcr.io/cc-business-systems-dev/test-activiti7-process-runtime
-  tag: 0.0.1-SNAPSHOT
+  tag: 0.0.2-SNAPSHOT
   pullPolicy: IfNotPresent
 service:
   name: test-activiti7-process-runtime
@@ -105,7 +105,7 @@ ingress:
   ## Set to true to enable ingress record generation
   enabled: false
 
-  path: /rb-sample-app
+  path: /test-activiti7-process-runtime
 
   ## Set this to override global.gateway.host name
   hostName: 
