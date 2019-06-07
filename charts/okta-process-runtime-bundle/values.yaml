@@ -68,14 +68,14 @@ javaOpts:
 # only set this variable if a private registry secret is needed to pull the image
 #registryPullSecrets: private-registry-secret
 image:
-  repository: us.gcr.io/cc-business-systems-dev/provisioning-activiti7-okta-user-service
+  repository: us.gcr.io/cc-business-systems-dev/provisioning-activiti7-okta-process-runtime-bundle
   tag: 7.1.0
-  pullPolicy: Always
+  pullPolicy: IfNotPresent
 service:
-  name: oktausermgmtservice
+  name: okta-activiti7-process-rb
   type: ClusterIP
   externalPort: 80
-  internalPort: 9090
+  internalPort: 8080
   annotations:
     fabric8.io/expose: "false"
 resources:
@@ -105,7 +105,7 @@ ingress:
   ## Set to true to enable ingress record generation
   enabled: false
 
-  path: /oktausermgmtservice
+  path: /okta-activiti7-process-rb
 
   ## Set this to override global.gateway.host name
   hostName: 
