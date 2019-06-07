@@ -69,8 +69,8 @@ javaOpts:
 #registryPullSecrets: private-registry-secret
 image:
   repository: us.gcr.io/cc-business-systems-dev/provisioning-activiti7-okta-process-runtime-bundle
-  tag: 7.1.0
-  pullPolicy: IfNotPresent
+  tag: 7.1.1
+  pullPolicy: Always
 service:
   name: okta-activiti7-process-rb
   type: ClusterIP
