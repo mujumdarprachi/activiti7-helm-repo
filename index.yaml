@@ -3,7 +3,7 @@ entries:
   okta-process-connector:
   - apiVersion: v1
     appVersion: 7.1.0.M1
-    created: "2019-06-13T12:54:11.3827613+05:30"
+    created: "2019-06-13T17:29:38.4396383+05:30"
     description: A Helm chart for Activiti Cloud Connector
     digest: 84d018f7bad04c7ec1690908c116f163250f4c083082e4d354a01915027445ed
     icon: https://salaboy.files.wordpress.com/2018/01/acitiviti_icon_fullcolor_github_400x400.png
@@ -13,7 +13,7 @@ entries:
     version: 7.1.1
   - apiVersion: v1
     appVersion: 7.1.0.M1
-    created: "2019-06-13T12:54:11.3807622+05:30"
+    created: "2019-06-13T17:29:38.4386373+05:30"
     description: A Helm chart for Activiti Cloud Connector
     digest: 5a566ae8aa6cd80f5ed03daefa3293b4babb87b56844249b19d981b22806d060
     icon: https://salaboy.files.wordpress.com/2018/01/acitiviti_icon_fullcolor_github_400x400.png
@@ -24,7 +24,17 @@ entries:
   okta-process-runtime-bundle:
   - apiVersion: v1
     appVersion: 7.1.0.M1
-    created: "2019-06-13T12:54:11.3887639+05:30"
+    created: "2019-06-13T17:29:38.447645+05:30"
+    description: A Helm chart for Okta Activiti7 Cloud Runtime Bundle Example
+    digest: 4053828601cfa0bce3ee084d455d0bd3d53b7f53768d3fe04cb7e17d0f0ff53b
+    icon: https://salaboy.files.wordpress.com/2018/01/acitiviti_icon_fullcolor_github_400x400.png
+    name: okta-process-runtime-bundle
+    urls:
+    - https://mujumdarprachi.github.io/activiti7-helm-repo/okta-process-runtime-bundle-7.1.3.tgz
+    version: 7.1.3
+  - apiVersion: v1
+    appVersion: 7.1.0.M1
+    created: "2019-06-13T17:29:38.4461451+05:30"
     description: A Helm chart for Okta Activiti7 Cloud Runtime Bundle Example
     digest: d6c8cfe90255b2f08829bf1ac45bd4570cebf7b6c0f510ae22f2534a57342082
     icon: https://salaboy.files.wordpress.com/2018/01/acitiviti_icon_fullcolor_github_400x400.png
@@ -34,7 +44,7 @@ entries:
     version: 7.1.2
   - apiVersion: v1
     appVersion: 7.1.0.M1
-    created: "2019-06-13T12:54:11.3867633+05:30"
+    created: "2019-06-13T17:29:38.4436365+05:30"
     description: A Helm chart for Okta Activiti7 Cloud Runtime Bundle Example
     digest: 8cfdd128b02b7b1deb06a2c8d8f3e5e91722878fe6bcad42615e78451cbce44c
     icon: https://salaboy.files.wordpress.com/2018/01/acitiviti_icon_fullcolor_github_400x400.png
@@ -44,7 +54,7 @@ entries:
     version: 7.1.1
   - apiVersion: v1
     appVersion: 7.1.0.M1
-    created: "2019-06-13T12:54:11.3847641+05:30"
+    created: "2019-06-13T17:29:38.441636+05:30"
     description: A Helm chart for Okta Activiti7 Cloud Runtime Bundle Example
     digest: 38e176b936c423862d75ec1127b35826c50ff7ea63797d2d6e67921304213363
     icon: https://salaboy.files.wordpress.com/2018/01/acitiviti_icon_fullcolor_github_400x400.png
@@ -55,7 +65,7 @@ entries:
   oktausermgmtservice:
   - apiVersion: v1
     appVersion: 7.1.0.M1
-    created: "2019-06-13T12:54:11.3947632+05:30"
+    created: "2019-06-13T17:29:38.4521444+05:30"
     description: A Helm chart for Okta Cloud Runtime Bundle Example
     digest: c2be16941c48aff663a6f05b496121bda053d72fa49fdfa7f8a52c4324a81d6a
     icon: https://salaboy.files.wordpress.com/2018/01/acitiviti_icon_fullcolor_github_400x400.png
@@ -65,7 +75,7 @@ entries:
     version: 7.1.2
   - apiVersion: v1
     appVersion: 7.1.0.M1
-    created: "2019-06-13T12:54:11.3937636+05:30"
+    created: "2019-06-13T17:29:38.4511441+05:30"
     description: A Helm chart for Okta Cloud Runtime Bundle Example
     digest: 3c5d7f1cbcda90170875f019b48f4b3ef53a1b33810cfacc3eaeb7c41c4d407a
     icon: https://salaboy.files.wordpress.com/2018/01/acitiviti_icon_fullcolor_github_400x400.png
@@ -75,7 +85,7 @@ entries:
     version: 7.1.1
   - apiVersion: v1
     appVersion: 7.1.0.M1
-    created: "2019-06-13T12:54:11.3907631+05:30"
+    created: "2019-06-13T17:29:38.4496445+05:30"
     description: A Helm chart for Okta Cloud Runtime Bundle Example
     digest: b66b6bbf143eb38d9656a9eb5a935365408287a2451c4fb56fc2d9f51484933a
     icon: https://salaboy.files.wordpress.com/2018/01/acitiviti_icon_fullcolor_github_400x400.png
@@ -86,7 +96,7 @@ entries:
   test-activiti7-process-connector:
   - apiVersion: v1
     appVersion: 7.1.0.M1
-    created: "2019-06-13T12:54:11.3997644+05:30"
+    created: "2019-06-13T17:29:38.4551456+05:30"
     description: A Helm chart for Activiti Cloud Connector
     digest: 0e855b15bd83d0af223638cce8e28e70db0af3843758e36cba5bf4fd0d64bca5
     icon: https://salaboy.files.wordpress.com/2018/01/acitiviti_icon_fullcolor_github_400x400.png
@@ -96,7 +106,7 @@ entries:
     version: 0.2.0
   - apiVersion: v1
     appVersion: 7.1.0.M1
-    created: "2019-06-13T12:54:11.3977645+05:30"
+    created: "2019-06-13T17:29:38.453645+05:30"
     description: A Helm chart for Activiti Cloud Connector
     digest: ce894eee256692f342b2200bf356d69bcf8408a6e88de20dbd1ee73a9322928c
     icon: https://salaboy.files.wordpress.com/2018/01/acitiviti_icon_fullcolor_github_400x400.png
@@ -107,7 +117,7 @@ entries:
   test-activiti7-process-runtime:
   - apiVersion: v1
     appVersion: 7.1.0.M1
-    created: "2019-06-13T12:54:11.4107627+05:30"
+    created: "2019-06-13T17:29:38.4576458+05:30"
     description: A Helm chart for Test Activiti7 Cloud Runtime Bundle Example
     digest: 954258503bf4e97082d4214f0e5a6b5b84ec11fefec3894752de261d50663d3e
     icon: https://salaboy.files.wordpress.com/2018/01/acitiviti_icon_fullcolor_github_400x400.png
@@ -117,7 +127,7 @@ entries:
     version: 0.2.0
   - apiVersion: v1
     appVersion: 7.1.0.M1
-    created: "2019-06-13T12:54:11.4017639+05:30"
+    created: "2019-06-13T17:29:38.4561448+05:30"
     description: A Helm chart for Test Activiti7 Cloud Runtime Bundle Example
     digest: a0873559c071b5062a3e610cf1dde4614214f29ecbc913d54cf7d2f5d188c069
     icon: https://salaboy.files.wordpress.com/2018/01/acitiviti_icon_fullcolor_github_400x400.png
@@ -125,4 +135,4 @@ entries:
     urls:
     - https://mujumdarprachi.github.io/activiti7-helm-repo/test-activiti7-process-runtime-0.1.0.tgz
     version: 0.1.0
-generated: "2019-06-13T12:54:11.376762+05:30"
+generated: "2019-06-13T17:29:38.4326358+05:30"
