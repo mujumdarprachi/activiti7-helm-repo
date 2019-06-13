@@ -69,7 +69,7 @@ javaOpts:
 #registryPullSecrets: private-registry-secret
 image:
   repository: us.gcr.io/cc-business-systems-dev/provisioning-activiti7-okta-user-service
-  tag: 7.1.1
+  tag: 7.1.2
   pullPolicy: Always
 service:
   name: oktausermgmtservice
